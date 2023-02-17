@@ -1,4 +1,4 @@
-@extends('layouts.app', ['page' => 'Client Information', 'pageSlug' => 'clients', 'section' => 'clients'])
+@extends('layouts.app', ['page' => 'Staff Information', 'pageSlug' => 'clients', 'section' => 'clients'])
 
 @section('content')
     @include('alerts.error')
@@ -6,7 +6,7 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header">
-                    <h4 class="card-title">Client Information</h4>
+                    <h4 class="card-title">Staff Information</h4>
                 </div>
                 <div class="card-body">
                     <table class="table">
